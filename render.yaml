@@ -28,7 +28,7 @@ services:
       - key: N8N_BLOCK_ENV_ACCESS_IN_NODE
         value: "false"
       - key: N8N_ENCRYPTION_KEY
-        value: "<your-openssl-key-here>"
+        value: "openssl rand -base64 32"
       - key: N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS
         value: "true"
       - key: N8N_HOST
